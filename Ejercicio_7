@@ -1,0 +1,34 @@
+/* Realizar un programa que pida al usuario 5 números reales y los muestre en una columna en pantalla
+en el orden inverso en el que han sido tecleados. Tendrán dos decimales.
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main () {
+   float num1;
+   float num2;
+   float num3;
+   float num4;
+   float num5;
+
+   cout<<"\n\tIntroduzca el numero 1: ";
+   cin>>num1;
+
+   cout<<"\n\tIntroduzca el numero 2: ";
+   cin>>num2;
+
+   cout<<"\n\tIntroduzca el numero 3: ";
+   cin>>num3;
+
+   cout<<"\n\tIntroduzca el numero 4: ";
+   cin>>num4;
+
+   cout<<"\n\tIntroduzca el numero 5: ";
+   cin>>num5;
+
+   cout<<"los numeros son: "<<endl<<num5<<endl<<num4<<endl<<num3<<endl<<num2<<endl<<num1<<endl;
+   system("pause");
+   return 0;
+}
